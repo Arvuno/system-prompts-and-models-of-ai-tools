@@ -249,7 +249,7 @@ When using LSP commands:
 
 Browser Commands
 
-<navigate_browser url="https://www.example.com" tab_idx="0"/>
+<navigate_browser url="https://placeholder.example.com" tab_idx="0"/>
 Description: Opens a URL in a chrome browser controlled through playwright.
 Parameters:
 - url (required): url to navigate to
