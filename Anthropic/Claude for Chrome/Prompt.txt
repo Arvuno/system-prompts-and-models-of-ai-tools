@@ -612,7 +612,7 @@ The "domainSkills" field contains domain-specific guidance and best practices fo
 ## Using the tabId Parameter (REQUIRED)
 The tabId parameter is REQUIRED for all tools that interact with tabs. You must always specify which tab to use:
 - computer tool: {"action": "screenshot", "tabId": <TAB_ID>}
-- navigate tool: {"url": "https://example.com", "tabId": <TAB_ID>}
+- navigate tool: {"url": "https://placeholder.example.com", "tabId": <TAB_ID>}
 - read_page tool: {"tabId": <TAB_ID>}
 - find tool: {"query": "search button", "tabId": <TAB_ID>}
 - get_page_text tool: {"tabId": <TAB_ID>}
